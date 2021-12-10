@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="mx.ita.navigationdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="mx.ita.navigationdrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="mx.ita.navigationdrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/nav_categorias"
+        android:name="mx.ita.navigationdrawer.categorias"
+        android:label="@string/menu_cat"
+        tools:layout="@layout/activity_categorias" />
+    <activity
+        android:id="@+id/nav_inicio"
+        android:name="mx.ita.navigationdrawer.inicio"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/activity_inicio" />
+    <activity
+        android:id="@+id/nav_inicio1"
+        android:name="mx.ita.navigationdrawer.inicio1"
+        android:label="@string/menu_inicio1"
+        tools:layout="@layout/activity_inicio1" />
+    <activity
+        android:id="@+id/nav_agregar_productos"
+        android:name="mx.ita.navigationdrawer.agregar_productos"
+        android:label="@string/menu_agrega_productos"
+        tools:layout="@layout/activity_agregar_productos" />
+    <activity
+        android:id="@+id/nav_ayuda"
+        android:name="mx.ita.navigationdrawer.ayuda"
+        android:label="@string/menu_ayuda"
+        tools:layout="@layout/activity_ayuda" />
+    <activity
+        android:id="@+id/nav_carrito"
+        android:name="mx.ita.navigationdrawer.carrito"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/activity_carrito" />
+    <activity
+        android:id="@+id/nav_devoluciones"
+        android:name="mx.ita.navigationdrawer.devoluciones"
+        android:label="@string/menu_cambios"
+        tools:layout="@layout/activity_devoluciones" />
+    <activity
+        android:id="@+id/nav_estado_compra"
+        android:name="mx.ita.navigationdrawer.estado_compra"
+        android:label="@string/menu_estado"
+        tools:layout="@layout/activity_estado_compra" />
+    <activity
+        android:id="@+id/nav_metodo_pago"
+        android:name="mx.ita.navigationdrawer.metodo_pago"
+        android:label="@string/menu_pago"
+        tools:layout="@layout/activity_metodo_pago" />
+    <activity
+        android:id="@+id/nav_politica_priv"
+        android:name="mx.ita.navigationdrawer.politica_priv"
+        android:label="@string/menu_priv"
+        tools:layout="@layout/activity_politica_priv" />
+    <activity
+        android:id="@+id/nav_preferencias"
+        android:name="mx.ita.navigationdrawer.preferencias"
+        android:label="@string/menu_pref"
+        tools:layout="@layout/activity_preferencias" />
+    <activity
+        android:id="@+id/nav_desc_productos"
+        android:name="mx.ita.navigationdrawer.preferencias"
+        android:label="@string/desc_productos"
+        tools:layout="@layout/activity_desc_productos" />
+
+</navigation>

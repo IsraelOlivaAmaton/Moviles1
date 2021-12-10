@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/log_user"
+            android:title="@string/menu_usuario"
+            />
+        <item
+            android:id="@+id/nav_agregar_productos"
+            android:title="@string/menu_agrega_productos" />
+        <item
+            android:id="@+id/desc_productos"
+            android:title="@string/desc_productos" />
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_inicio1"
+            android:title="@string/menu_inicio1" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:title="@string/menu_buscar" />
+        <item
+            android:id="@+id/nav_estado_compra"
+            android:title="@string/menu_estado" />
+        <item
+            android:id="@+id/nav_compras"
+            android:title="@string/menu_compras" />
+        <item
+            android:id="@+id/nav_notificaciones"
+            android:title="@string/menu_notif" />
+        <item
+            android:id="@+id/nav_categorias"
+            android:title="@string/menu_cat" />
+        <item
+            android:id="@+id/nav_promo"
+            android:title="@string/menu_promo" />
+        <item
+            android:id="@+id/nav_guardados"
+            android:title="@string/menu_guardados" />
+        <item
+            android:id="@+id/nav_devoluciones"
+            android:title="@string/menu_cambios" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:title="@string/menu_carrito" />
+        <item
+            android:id="@+id/nav_metodo_pago"
+            android:title="@string/menu_pago" />
+        <item
+            android:id="@+id/nav_politica_priv"
+            android:title="@string/menu_priv" />
+        <item
+            android:id="@+id/nav_datos"
+            android:title="@string/menu_datos" />
+        <item
+            android:id="@+id/nav_preferencias"
+            android:title="@string/menu_pref" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:title="@string/menu_ayuda" />
+        <item
+            android:id="@+id/nav_salir"
+            android:title="@string/menu_salir" />
+    </group>
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".categoria">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="recamaras"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="1dp"
+        android:background="#00FFFFFF"
+        android:text="edredones"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="string/cat_sabanas"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="391dp"
+        android:layout_height="52dp"
+        android:background="#00FFFFFF"
+        android:text="string/cat_batas"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="68dp"
+        android:text="string/cat_titulo"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="string/cat_toallas"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="391dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="39dp"
+        android:background="#00FFFFFF"
+        android:text="string/cat_cortinas"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="string/cat_colchas"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="390dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:text="string/cat_cocina"
+        android:textAlignment="textStart"
+        android:textColor="#000000" />
+
+</FrameLayout>
