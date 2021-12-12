@@ -17,7 +17,6 @@
             android:layout_height="wrap_content"
             motion:layout_editor_absoluteY="441dp"
             motion:layout_editor_absoluteX="12dp"
-            android:id="@+id/button"
             motion:layout_constraintTop_toTopOf="parent" />
     </ConstraintSet>
 
